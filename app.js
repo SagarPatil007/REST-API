@@ -3,9 +3,15 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+const products_routes = require("./routes/products");
+
 app.get("/",function(req,res){
     res.send("I am listing on port 3000");
 });
+
+//Middleware
+ 
+app.use("/api/products",products_routes);
 
 const start = async () =>{
     try{
@@ -16,6 +22,5 @@ const start = async () =>{
         console.log(error);
     }
 }
-
 
 start();

@@ -2,13 +2,13 @@
     {
         "name":"iphone x",
         "price":30000,
-        "feature":true,
+        "featured":true,
         "Compnay":"Apple"
     },
     {
         "name":"iphone 11",
         "price":40000,
-        "feature":true,
+        "featured":true,
         "Compnay":"Apple"
     },
     {
@@ -19,19 +19,18 @@
     {
         "name":"iphone watch",
         "price":25000,
-        "feature":true,
         "Compnay":"Apple"
     },
     {
         "name":"iphone 12 mini",
         "price":45000,
-        "feature":true,
+        "featured":true,
         "Compnay":"Apple"
     },
     {
         "name":"iphone airdrop",
         "price":28000,
-        "feature":true,
+        "featured":true,
         "Compnay":"Apple"
     }
 ]

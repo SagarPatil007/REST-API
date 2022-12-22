@@ -1,3 +1,4 @@
+/*Adding Data (json) using ProductDb.js in MongoDB Atlas */
 require("dotenv").config();
 const connectDB = require("./db/connect");
 const Product = require("./models/products");
